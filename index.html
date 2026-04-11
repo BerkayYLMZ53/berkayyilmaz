@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkay Yılmaz | Kişisel Web Sitesi</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+        }
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 4rem 1rem;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+        /* Fotoğraf çemberi ayarları */
+        header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--secondary-color);
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #bdc3c7;
+            margin-top: 5px;
+        }
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 2rem auto;
+            padding: 0 20px;
+            position: relative;
+        }
+        section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills-list li {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        .project-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid var(--secondary-color);
+        }
+        .project-item h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--primary-color);
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        /* Mobil uyumluluk */
+        @media (max-width: 768px) {
+            header { padding: 3rem 1rem; }
+            .container { margin-top: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="profil.jpg" alt="Berkay Yılmaz Fotoğrafı">
+        <h1>Berkay Yılmaz</h1>
+        <p>Yönetim Bilişim Sistemleri Öğrencisi | Veri Bilimi & SEO Tutkunu</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="hakkimda">
+            <h2>Hakkımda</h2>
+            <p>Merhaba, ben Berkay. Düzce Üniversitesi'nde Yönetim Bilişim Sistemleri 3. sınıf öğrencisiyim. Veri bilimi, makine öğrenmesi ve yapay zeka alanlarına yoğun ilgi duyuyorum ve kariyerimi bu yönde, özellikle yüksek lisans çalışmalarımla şekillendirmeyi hedefliyorum. Analitik düşünmeyi gerektiren veri odaklı projeler ve teknik iş süreçleri en büyük motivasyon kaynağım.</p>
+        </section>
+
+        <section id="yetenekler">
+            <h2>Teknik Yetenekler & İlgi Alanları</h2>
+            <ul class="skills-list">
+                <li>Python (Pandas, Scikit-learn)</li>
+                <li>Veri Analizi & Ön İşleme</li>
+                <li>Teknik SEO (Screaming Frog)</li>
+                <li>Mobil Uygulama İş Modeli Geliştirme</li>
+                <li>PC Donanımı & Sistem Mimarisi</li>
+            </ul>
+        </section>
+
+        <section id="projeler">
+            <h2>Öne Çıkan Projeler</h2>
+            
+            <div class="project-item">
+                <h3>CityHub Mobil Uygulama Konsepti</h3>
+                <p>Şehir içi deneyimleri artırmak ve aktivite partneri bulmak amacıyla tasarlanmış bir mobil platform. Proje kapsamında kapsamlı bir iş modeli kanvası ve müşteri yolculuğu haritaları (Customer Journey) geliştirildi.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>E-Ticaret Veri Analizi ve Teknik SEO</h3>
+                <p>Büyük bir e-ticaret platformunun verilerini web scraping yöntemleriyle çekerek oluşturulan akademik bir çalışma. Jupyter Notebook kullanılarak istatistiksel görselleştirmeler yapıldı ve platformun teknik SEO sağlığı (durum kodları, JS render performansı) derinlemesine incelendi.</p>
+            </div>
+        </section>
+
+        <section id="hobiler">
+            <h2>Hobiler & Kişisel İlgi Alanları</h2>
+            <p>Akademik ve teknik çalışmalarımın dışında, yüksek performanslı sistemimde (Ryzen 7 7800X3D, RTX 4070 Ti Super) Battlefield 1, GTA Online ve Tekken gibi oyunları oynamaktan büyük keyif alıyorum. Ayrıca arkada rap müzik çalarken kod yazmak ya da yeni bir projeye odaklanmak günlük rutinimin bir parçası.</p>
+        </section>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Berkay Yılmaz. Tüm hakları saklıdır.</p>
+    </div>
+
+</body>
+</html>
