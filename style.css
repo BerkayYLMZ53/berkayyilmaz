@@ -7,42 +7,25 @@
     --glass-border: rgba(255, 255, 255, 0.1);
 }
 
-/* YENİ BODY VE 3D IZGARA KODU */
+/* GÜVENLİ VE ŞIK ARKA PLAN (SİYAH EKRAN ÇÖZÜMÜ) */
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: var(--text-color);
-    background-color: #050505; /* Tam Siyah */
     overflow-x: hidden;
-    position: relative;
     min-height: 100vh;
+    
+    /* Dinamik Renk Geçişleri (Koyu Lacivert ve Gece Mavisi) */
+    background: linear-gradient(270deg, #020617, #0f172a, #1e1b4b, #020617);
+    background-size: 800% 800%;
+    animation: premiumDalga 12s ease infinite;
 }
 
-/* Akan 3D Izgara Zemin */
-body::before {
-    content: "";
-    position: fixed;
-    width: 200%;
-    height: 200%;
-    top: 20%;
-    left: -50%;
-    background-image: 
-        linear-gradient(rgba(56, 189, 248, 0.6) 2px, transparent 2px),
-        linear-gradient(90deg, rgba(56, 189, 248, 0.6) 2px, transparent 2px);
-    background-size: 60px 60px; /* Karelerin boyutu */
-    /* Izgarayı yatırıp 3D derinlik veriyoruz */
-    transform: perspective(600px) rotateX(75deg) translateY(0);
-    animation: gridMove 3s linear infinite;
-    z-index: -1;
-    /* Izgaranın ufukta kaybolması için gölgelendirme */
-    mask-image: linear-gradient(to top, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 60%);
-    -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 60%);
-}
-
-/* Akış Animasyonu */
-@keyframes gridMove {
-    0% { transform: perspective(600px) rotateX(75deg) translateY(0); }
-    100% { transform: perspective(600px) rotateX(75deg) translateY(60px); }
+/* Animasyon Kodumuz */
+@keyframes premiumDalga {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Navigasyon Bar (Buzlu Cam Efekti) */
