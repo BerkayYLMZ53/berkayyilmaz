@@ -120,3 +120,26 @@ nav a:hover {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+/* Özelleştirilmiş Kaydırma Çubuğu */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38bdf8; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #818cf8; 
+}
+
+/* Metin Seçim Rengi */
+::selection {
+    background-color: var(--accent-color);
+    color: #0f172a;
+}
