@@ -2,7 +2,7 @@
 
 Bu depo, Yönetim Bilişim Sistemleri (YBS) ve Veri Bilimi alanında çalışmalar yapan **Berkay Yılmaz**'ın kişisel portfolyo web sitesinin kaynak kodlarını içermektedir.
 
-Sitemi canlı olarak buradan inceleyebilirsiniz: [berkayyilmaz.github.io](https://kullaniciadin.github.io) *(Linkini buraya eklemeyi unutma)*
+Sitemi canlı olarak buradan inceleyebilirsiniz: [berkayyilmaz.github.io](https://berkayylmz53.github.io/berkayyilmaz/) *(Linkini buraya eklemeyi unutma)*
 
 ---
 
