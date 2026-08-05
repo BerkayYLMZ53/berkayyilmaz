@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Berkay Yılmaz'ın GitHub projeleri — makine öğrenmesi, veri analizi ve yazılım geliştirme çalışmaları.">
+    <title>Projeler | Berkay Yılmaz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="nav-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-dot"></span>
+                Berkay Yılmaz
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Menüyü aç/kapat">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimda.html">Hakkımda</a></li>
+                <li><a href="projeler.html" class="active">Projeler</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container page-section">
+        <div class="section-header">
+            <span class="section-label">Portfolyo</span>
+            <h1 class="section-title">GitHub Projelerim</h1>
+            <p class="section-desc">Veri bilimi, makine öğrenmesi ve yazılım geliştirme alanındaki açık kaynak çalışmalarım.</p>
+        </div>
+
+        <!-- Öne Çıkan (Pinned) -->
+        <section class="projects-block">
+            <div class="block-header">
+                <h2 class="block-title">Öne Çıkan Projeler</h2>
+                <span class="block-count">6 proje</span>
+            </div>
+            <div class="card-grid two-col">
+
+                <article class="project-card featured">
+                    <span class="featured-badge">Pinned</span>
+                    <div class="project-card-header">
+                        <span class="project-category">Computer Vision</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>E-Commerce Image Moderation System</h3>
+                    <p>YOLOv8 ve CLIP kullanan, self-feeding multi-reference mimarisiyle e-ticaret yorum görsellerini filtreleyen akıllı moderasyon sistemi. Streamlit arayüzü ile sunuldu.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">YOLOv8</span>
+                        <span class="card-tag">CLIP</span>
+                        <span class="card-tag">Streamlit</span>
+                        <span class="card-tag">Deep Learning</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/E-Commerce-Image-Moderation-System" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card featured">
+                    <span class="featured-badge">Pinned</span>
+                    <div class="project-card-header">
+                        <span class="project-category">Sınıflandırma</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Airbnb User Booking Prediction</h3>
+                    <p>Demografik ve oturum verileri kullanılarak yeni kullanıcıların ilk seyahat destinasyonlarını tahmin eden çok sınıflı sınıflandırma modeli. Gradient Boosting ile geliştirildi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Gradient Boosting</span>
+                        <span class="card-tag">Multi-class</span>
+                        <span class="card-tag">Scikit-learn</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Airbnb-User-Booking-Prediction-" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card featured">
+                    <span class="featured-badge">Pinned</span>
+                    <div class="project-card-header">
+                        <span class="project-category">Sınıflandırma</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Online Shoppers Purchasing Intention</h3>
+                    <p>Online alışveriş yapan kullanıcıların satın alma niyetini Decision Tree modelleriyle tahmin eden proje. Pre/Post-Pruning analizi ile model optimizasyonu yapıldı.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Decision Tree</span>
+                        <span class="card-tag">Pruning</span>
+                        <span class="card-tag">Classification</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Online-Shoppers-Purchasing-Intention" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card featured">
+                    <span class="featured-badge">Pinned</span>
+                    <div class="project-card-header">
+                        <span class="project-category">Regresyon</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Second Hand Car Price Prediction</h3>
+                    <p>Linear Regression ve Scikit-Learn pipeline'ları ile ikinci el araç fiyat tahmini. R² skoru 0.8853 ile güçlü bir performans elde edildi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Linear Regression</span>
+                        <span class="card-tag">Scikit-learn</span>
+                        <span class="card-tag">R² = 0.8853</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Second-Hand-Car-Price-Prediction" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card featured">
+                    <span class="featured-badge">Pinned</span>
+                    <div class="project-card-header">
+                        <span class="project-category">SVM</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>SVM Price Category Classification</h3>
+                    <p>Support Vector Machines ve GridSearchCV pipeline'ları ile çok sınıflı fiyat kategorisi sınıflandırması. Hiperparametre optimizasyonu uygulandı.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">SVM</span>
+                        <span class="card-tag">GridSearchCV</span>
+                        <span class="card-tag">Multi-class</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/SVM-Price-Category-Classification" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card featured">
+                    <span class="featured-badge">Pinned</span>
+                    <div class="project-card-header">
+                        <span class="project-category">Veri Madenciliği</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Kaggle Survey Dataset Project</h3>
+                    <p>Kaggle Survey veri seti üzerinde baseline ve ön işlenmiş veri karşılaştırmalı veri madenciliği projesi. KNN, Decision Tree, Naive Bayes ve Random Forest modelleri test edildi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">KNN</span>
+                        <span class="card-tag">Random Forest</span>
+                        <span class="card-tag">Naive Bayes</span>
+                        <span class="card-tag">Data Mining</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Kaggle-Survey-Dataset-Project" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Makine Öğrenmesi -->
+        <section class="projects-block">
+            <div class="block-header">
+                <h2 class="block-title">Makine Öğrenmesi</h2>
+                <span class="block-count">4 proje</span>
+            </div>
+            <div class="card-grid two-col">
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">Sınıflandırma</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Logistic Regression — Breast Cancer Prediction</h3>
+                    <p>Meme kanseri tümör sınıflandırması (İyi huylu / Kötü huylu). Logistic Regression ve feature scaling teknikleri kullanıldı.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Logistic Regression</span>
+                        <span class="card-tag">Feature Scaling</span>
+                        <span class="card-tag">Healthcare</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Logistic-Regression-Breast-Cancer-Prediction" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">Sınıflandırma</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Ad Conversion Analysis with KNN</h3>
+                    <p>Reklam dönüşümü ve satın alma davranışını K-Nearest Neighbors (KNN) sınıflandırması ile tahmin eden analiz projesi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">KNN</span>
+                        <span class="card-tag">Classification</span>
+                        <span class="card-tag">Marketing Analytics</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Ad-Conversion-Analysis-with-K-Nearest-Neighbors-KNN-" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">Regresyon</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Random Forest Regressor — Continuous Variable Estimation</h3>
+                    <p>Random Forest Regressor ve GridSearchCV ile sürekli hedef değişken tahmini. Hiperparametre ayarı ile model performansı optimize edildi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Random Forest</span>
+                        <span class="card-tag">GridSearchCV</span>
+                        <span class="card-tag">Regression</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Random-Forest-Regressor-Continuous-Variable-Estimation" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">Kümeleme</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>Jupyter</span>
+                    </div>
+                    <h3>Customer Segmentation</h3>
+                    <p>Kredi kartı müşteri segmentasyonu. K-Means Clustering ve PCA boyut indirgeme teknikleri ile müşteri grupları belirlendi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">K-Means</span>
+                        <span class="card-tag">PCA</span>
+                        <span class="card-tag">Clustering</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Customer-Segmentation" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Yazılım & Diğer -->
+        <section class="projects-block">
+            <div class="block-header">
+                <h2 class="block-title">Yazılım &amp; Diğer Çalışmalar</h2>
+                <span class="block-count">4 proje</span>
+            </div>
+            <div class="card-grid two-col">
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">C# / OOP</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>C#</span>
+                    </div>
+                    <h3>Rent-A-Car Automation Project</h3>
+                    <p>Nesne yönelimli programlama prensipleri ve katmanlı mimari ile geliştirilmiş araç kiralama otomasyon sistemi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">C#</span>
+                        <span class="card-tag">OOP</span>
+                        <span class="card-tag">Layered Architecture</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/Rent-A-Car-Automation-Project" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">Web App</span>
+                        <span class="project-meta"><span class="project-meta-dot"></span>TypeScript</span>
+                    </div>
+                    <h3>EduBox — Student-Friendly Application</h3>
+                    <p>Öğrencilere yönelik kullanıcı dostu bir uygulama. TypeScript ile geliştirilmiş modern web uygulaması.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">TypeScript</span>
+                        <span class="card-tag">Web App</span>
+                        <span class="card-tag">Education</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/BerkayYLMZ53/EduBox" class="project-link" target="_blank" rel="noopener noreferrer">
+                            GitHub'da Gör
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">Veri Analizi</span>
+                        <span class="project-meta">Akademik</span>
+                    </div>
+                    <h3>E-Ticaret Veri Analizi &amp; Teknik SEO</h3>
+                    <p>Jupyter Notebook ve web scraping ile e-ticaret platformu verileri analiz edildi. Screaming Frog ile JS render performansı ve durum kodları denetlenerek SEO sağlık raporu oluşturuldu.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Web Scraping</span>
+                        <span class="card-tag">Screaming Frog</span>
+                        <span class="card-tag">Teknik SEO</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="project-meta">Akademik proje</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <span class="project-category">İş Modeli</span>
+                        <span class="project-meta">Konsept</span>
+                    </div>
+                    <h3>CityHub — Mobil İş Modeli</h3>
+                    <p>Şehir içi etkinlik keşfi ve aktivite arkadaşı bulma konseptli mobil uygulama. Business Model Canvas ve Customer Journey haritaları ile projelendirildi.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Business Model Canvas</span>
+                        <span class="card-tag">Customer Journey</span>
+                        <span class="card-tag">UX</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="project-meta">Konsept tasarım</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- GitHub CTA -->
+        <div class="github-banner">
+            <div class="github-banner-text">
+                <h3>Tüm projelerimi keşfedin</h3>
+                <p>14+ açık kaynak repo · Makine öğrenmesi, veri analizi ve yazılım geliştirme</p>
+            </div>
+            <a href="https://github.com/BerkayYLMZ53" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                GitHub Profilim
+            </a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="mailto:berkayy580@gmail.com">E-posta</a>
+                <a href="https://www.linkedin.com/in/berkay-yilmaz-253ab0292/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/BerkayYLMZ53" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Berkay Yılmaz. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
