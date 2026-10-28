@@ -117,3 +117,13 @@ Tam yapay zekâ sohbeti, çalışır dış model servisi ve doğrulanmamış ser
 **Önemli:** GitHub repository kök dizinine ZIP dosyasını değil, ZIP içindeki **tüm dosya ve klasörleri** yükleyin. Özellikle `blog.html`, `script.js`, `enhancements.js`, `theme.js`, `data/` ve `assets/` klasörleri eksiksiz bulunmalı. GitHub deposunda yalnızca temel altı dosyanın kalması, tema ve dil etkileşimleri gibi özelliklerin çalışmamasına neden olur.
 
 GitHub Pages ayarlarında `main` / `(root)` yayını açık olmalıdır. Yayın sonrası `https://berkayylmz53.github.io/berkayyilmaz/blog.html` adresini ayrıca test edin. Tarayıcı önbelleği nedeniyle eski görünüm sürerse `Ctrl+F5` ile zorla yenileyin.
+
+
+## Google Analytics (isteğe bağlı)
+
+- GA4 ölçüm kimliği: `G-5K2YL4PE1L`.
+- `analytics-consent.js` ziyaretçi analitik iznini vermeden Google etiketini yüklemez.
+- Site alt bilgisindeki **Çerez tercihleri** bağlantısı izni değiştirmek için kullanılabilir.
+- İzin verildiğinde sayfa görüntüleme ve özel `neuroscan_demo_click`, `resume_open`, `github_click`, `linkedin_click` olayları izlenir.
+- Canlı ziyaretleri Google Analytics **Gerçek zamanlı** raporunda, onay vererek test edin. Bu entegrasyon tarayıcıda uçtan uca doğrulanmalıdır.
+- Veri koruma mevzuatı uyarınca sitenin ayrıca uygun gizlilik aydınlatma metnine ihtiyacı olabilir. Bu basit onay paneli tek başına hukuki uyum garantisi değildir.
