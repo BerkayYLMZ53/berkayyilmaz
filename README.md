@@ -1,151 +1,119 @@
-<div align="center">
+# Berkay Yılmaz | Kişisel Portfolyo
 
-# 👨‍💻 Berkay Yılmaz | Kişisel Portfolyo
+Düzce Üniversitesi **Yönetim Bilişim Sistemleri (YBS) 4. sınıf** öğrencisi Berkay Yılmaz’ın veri bilimi, makine öğrenmesi ve yapay zekâ odaklı kişisel portfolyo sitesi.
 
-**Yönetim Bilişim Sistemleri 4. Sınıf Öğrencisi**  
-Düzce Üniversitesi · Veri Bilimi · Makine Öğrenmesi · Yapay Zekâ
-
-Kişisel çalışmalarımı, teknik becerilerimi, sertifikalarımı ve canlı proje demolarımı bir araya getirdiğim modern ve etkileşimli portfolyo web sitesi.
-
-[![Web Sitesi](https://img.shields.io/badge/🌐_Web_Sitesini_Ziyaret_Et-2563EB?style=for-the-badge)](https://berkayylmz53.github.io/berkayyilmaz/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/BerkayYLMZ53)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/berkay-yilmaz-253ab0292/)
-
-</div>
+**Canlı site:** [berkayylmz53.github.io/berkayyilmaz](https://berkayylmz53.github.io/berkayyilmaz/)
 
 ---
 
-## ✨ Proje Hakkında
+## Özellikler
 
-Bu portfolyo, Yönetim Bilişim Sistemleri eğitimim sırasında geliştirdiğim projeleri ve teknik gelişimimi anlaşılır, erişilebilir ve güncel bir biçimde sunmak için hazırlandı. **HTML, CSS ve vanilla JavaScript** ile geliştirildi; **GitHub Pages** üzerinde yayınlanmak üzere tasarlandı.
+- Premium koyu tema (Linear / modern developer portfolio dili)
+- Çok sayfalı yapı: Ana Sayfa, Hakkımda, Projeler
+- 15 proje kartı, kategori filtreleri ve erişilebilir detay modalları
+- Mobil uyumlu sticky navigasyon
+- Scroll reveal animasyonları (`prefers-reduced-motion` destekli)
+- SEO meta etiketleri, Open Graph ve semantic HTML
+- Saf HTML, CSS ve vanilla JavaScript — framework yok
 
-## 🚀 Özellikler
+---
 
-- **15 proje:** Makine öğrenmesi, yapay zekâ, veri analizi ve yazılım alanlarındaki çalışmalar; kategori filtreleri ve proje detayları.
-- **Canlı NeuroScan demosu:** Beyin MR görüntülerini Custom CNN ve MobileNetV2 modelleriyle sınıflandıran ayrı Streamlit uygulamasına bağlantı.
-- **TR / EN dil desteği:** Ana arayüz, blog, proje özetleri ve asistan için iki dilli içerikler. Bazı ayrıntılı eski proje metinleri henüz tamamen çevrilmemiş olabilir.
-- **Açık / koyu tema:** Ziyaretçinin seçimini tarayıcıda hatırlayan tema geçişi.
-- **CV:** Türkçe ve İngilizce indirilebilir PDF özgeçmişler.
-- **Sertifikalar:** BTK Akademi ve Udemy kaynaklı dört eğitim/sertifika kaydı; yeni sertifikalara açık veri yapısı.
-- **GitHub verileri:** Herkese açık GitHub API üzerinden repo bilgileri; erişim hatalarında açıklayıcı durum mesajları.
-- **Teknoloji haritası:** Teknolojilerin ilgili projelerle ilişkilendirilmesi.
-- **Portfolyo asistanı:** Eğitimim, projelerim, CV'm ve sertifikalarım hakkında yerel içerikten yanıt veren **kural tabanlı rehber** (üretken yapay zekâ/LLM değildir).
-- **Teknik blog:** Veri sızıntısı, CNN ve transfer öğrenme, Python ile veri analizi üzerine başlangıç yazıları.
-- **Mobil uyum:** Responsive düzen, animasyonlar ve erişilebilirlik odaklı arayüz.
+## Proje Yapısı
 
-## 🧠 Öne Çıkan Proje: NeuroScan
-
-**NeuroScan**, beyin MR görüntülerini dört sınıfta (*Glioma, Meningioma, Pituitary, No Tumor*) sınıflandırmak için geliştirdiğim derin öğrenme projesidir.
-
-| Model | Test doğruluğu |
-|---|---:|
-| Custom CNN | %69,19 |
-| MobileNetV2 | %91,69 |
-
-Bu değerler proje sonuç dosyasındaki test doğruluklarıdır; klinik geçerlilik göstergesi değildir.
-
-**Teknolojiler:** Python, TensorFlow/Keras, Streamlit
-
-- 🎮 **[NeuroScan canlı demo](https://berkay-neuroscan.streamlit.app/)**
-- 💻 **[NeuroScan kaynak kodları](https://github.com/BerkayYLMZ53/NeuroScan-Brain-Tumor-Classification)**
-
-> ⚠️ **Uyarı:** NeuroScan yalnızca eğitim ve araştırma amacıyla geliştirilmiştir. Tıbbi teşhis veya tedavi kararı için kullanılmamalıdır.
-
-## 🛠️ Teknolojiler
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
-
-Web sitesi için harici bir frontend framework veya zorunlu build aşaması kullanılmaz. Proje içeriklerimde Python, Pandas, Scikit-learn, Streamlit ve farklı makine öğrenmesi teknikleri de yer alır.
-
-## 📂 Proje Yapısı
-
-```text
+```
 berkayyilmaz/
-├── index.html                 # Ana sayfa
-├── hakkimda.html              # Biyografi, eğitim, beceriler ve sertifikalar
-├── projeler.html              # Proje kartları, filtreleme ve detaylar
-├── blog.html                  # Teknik blog
-├── style.css                  # Tasarım ve responsive stil sistemi
-├── script.js                  # Temel site etkileşimleri
-├── enhancements.js            # Portfolyo özellikleri ve etkileşimler
-├── theme.js                   # Açık/koyu tema yönetimi
-├── profil.jpg                 # Profil fotoğrafı
-├── data/
-│   ├── projects.json          # Proje verileri
-│   ├── certificates.json      # Sertifika verileri
-│   └── translations.json      # Dil içerikleri
+├── index.html      # Ana sayfa
+├── hakkimda.html   # Biyografi, eğitim, beceriler
+├── projeler.html   # 15 proje + filtre + modal
+├── style.css       # Tasarım sistemi
+├── script.js       # Menü, filtre, modal, reveal
+├── profil.jpg      # Profil fotoğrafı
 ├── assets/
-│   ├── favicon.svg
-│   └── cv/
-│       ├── Berkay_Yilmaz_CV_TR.pdf
-│       └── Berkay_Yilmaz_Resume_EN.pdf
+│   └── favicon.svg
 └── README.md
 ```
 
-## 💻 Yerel Kurulum
+---
 
-Projeyi klonlayın:
+## Teknolojiler
 
-```bash
-git clone https://github.com/BerkayYLMZ53/berkayyilmaz.git
-cd berkayyilmaz
-```
-
-JSON dosyalarını tarayıcının güvenli biçimde yükleyebilmesi için yerel bir HTTP sunucusu başlatın:
-
-```bash
-python -m http.server 8000
-```
-
-Ardından tarayıcıda **http://localhost:8000** adresini açın.
-
-> `index.html` dosyasını doğrudan `file://` üzerinden açmak bazı JSON isteklerinde tarayıcı güvenlik kısıtlamasına takılabilir.
-
-## 🌍 GitHub Pages ile Yayınlama
-
-1. Dosyaları `berkayyilmaz` reposunun **kök dizinine** yükleyin (`index.html` kökte olmalı).
-2. Repository **Settings → Pages** bölümünü açın.
-3. Yayın kaynağını **Deploy from a branch**, dalı **main** ve klasörü **/(root)** olacak şekilde ayarlayın.
-4. Yayın sonrasında [canlı siteyi](https://berkayylmz53.github.io/berkayyilmaz/) ziyaret edin.
-
-GitHub API verileri ve Streamlit demosu gibi dış bağlantılar ağ koşullarına ve ilgili servislerin kullanılabilirliğine bağlıdır.
-
-## 📝 İçerikleri Güncelleme
-
-| Güncellenecek içerik | Dosya / konum |
-|---|---|
-| Proje bilgileri | `data/projects.json` ve ilgili sayfa içerikleri |
-| Sertifikalar | `data/certificates.json` |
-| Dil metinleri | `data/translations.json` ve ilgili arayüz metinleri |
-| Blog yazıları | `blog.html` |
-| Türkçe CV | `assets/cv/Berkay_Yilmaz_CV_TR.pdf` |
-| İngilizce CV | `assets/cv/Berkay_Yilmaz_Resume_EN.pdf` |
-| Tema görünümü | `style.css`, `theme.js` |
-
-Yeni sertifika eklerken mevcut JSON yapısında **`name`**, **`issuer`**, **`year`** alanlarını kullanın. Belge doğrulama adresini yalnızca gerçekten varsa ekleyin. Herkese açık CV'lere özel telefon, açık adres veya üçüncü kişilere ait izinsiz referans bilgileri eklemeyin.
-
-## 🎓 Eğitim ve İlgi Alanları
-
-- **Düzce Üniversitesi:** Yönetim Bilişim Sistemleri, 4. sınıf (CV'deki eğitim dönemi: 2024–2027)
-- **Anadolu Üniversitesi (Açıköğretim):** Bilgisayar Programcılığı (CV'de belirtilen dönem: 2024–2026)
-- **Odak alanları:** Veri bilimi, veri analitiği, makine öğrenmesi, yapay zekâ uygulamaları
-
-## 📫 İletişim
-
-- 🌐 [Kişisel Web Sitesi](https://berkayylmz53.github.io/berkayyilmaz/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/berkay-yilmaz-253ab0292/)
-- 🐙 [GitHub](https://github.com/BerkayYLMZ53)
-- ✉️ [E-posta Gönder](mailto:berkayy580@gmail.com)
+- HTML5
+- CSS3 (custom properties, glassmorphism, responsive breakpoints)
+- Vanilla JavaScript
+- Google Fonts: Outfit, Inter, JetBrains Mono
+- GitHub Pages
 
 ---
 
-<div align="center">
+## Yerel Çalıştırma
 
-**Öğrenmeye, geliştirmeye ve üretmeye devam ediyorum.**
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/BerkayYLMZ53/berkayyilmaz.git
+   cd berkayyilmaz
+   ```
+2. `index.html` dosyasını tarayıcıda açın veya basit bir statik sunucu kullanın:
+   ```bash
+   npx serve .
+   ```
 
-<sub>© 2026 Berkay Yılmaz</sub>
+---
 
-</div>
+## İletişim
+
+- **GitHub:** [github.com/BerkayYLMZ53](https://github.com/BerkayYLMZ53)
+- **LinkedIn:** [linkedin.com/in/berkay-yilmaz-253ab0292](https://www.linkedin.com/in/berkay-yilmaz-253ab0292/)
+- **E-posta:** berkayy580@gmail.com
+
+---
+
+<p align="center"><i>© 2026 Berkay Yılmaz. Tüm hakları saklıdır.</i></p>
+
+## NeuroScan canlı demo
+
+- **Canlı uygulama:** https://berkay-neuroscan.streamlit.app/
+- **Kaynak kodu:** https://github.com/BerkayYLMZ53/NeuroScan-Brain-Tumor-Classification
+- **Modeller:** Custom CNN ve MobileNetV2
+- **Test doğruluğu (proje sonuç CSV'sinden):** Custom CNN %69,19; MobileNetV2 %91,69
+- **Uyarı:** Uygulama eğitim ve araştırma içindir; tıbbi teşhis amacı taşımaz.
+
+Proje kartı ana sayfada ve Projeler sayfasında bulunur; yeni proje eklendiğinde toplam sayı 15 olur.
+
+## Portfolyo V2 — Yeni özellikler
+
+- **15 proje**: Önceki 14 çalışma korunur; NeuroScan canlı Streamlit demosu eklenir.
+- **Özgeçmiş**: `assets/cv/` içinde herkese açık Türkçe ve İngilizce PDF dosyaları. Telefon ve referans bilgileri bu dosyalarda bulunmaz.
+- **Sertifikalar**: `data/certificates.json` içinde CV'de belirtilen 4 gerçek eğitim/sertifika kaydı. Yeni kayıt eklemek için JSON listesine `name`, `issuer`, `year` ekleyin. `url` yalnızca gerçek doğrulama adresiniz varsa eklenmelidir.
+- **Teknoloji haritası**: `data/projects.json` içindeki teknoloji alanlarından otomatik proje eşleştirme.
+- **GitHub**: Herkese açık GitHub API üzerinden güncel repo bilgileri; API erişimi yoksa açık hata durumu gösterilir.
+- **Portfolyo asistanı**: Kayıtlı CV ve proje bilgileri üzerinden anahtar kelimeli soru-cevap rehberi. **Bir LLM değildir**, harici ücretli API veya gizli anahtar gerektirmez.
+- **Demo**: NeuroScan harici Streamlit uygulamasına bağlantı ve tarayıcıda çalışan eğitsel regresyon görselleştirmesi. Regresyon görseli gerçek eğitilmiş model sonucu değildir.
+- **Dil**: TR/EN seçicisi ve genişletilebilir sözlük `enhancements.js` içinde. Yeni içerikler için `data-i18n` ve `dictionary.en` eşleştirmesi eklenebilir. İlk sürümde bazı eski proje açıklamaları özgün Türkçe içerikleriyle korunur.
+
+### GitHub Pages kurulumu
+
+Bu klasörün **içeriğini** GitHub repository kök dizinine yükleyin. `index.html`, `style.css`, `script.js`, `enhancements.js`, `data/` ve `assets/` aynı kök altında bulunmalı. GitHub Pages yayın kaynağı `main` / root olmalıdır.
+
+### CV güncelleme
+
+`assets/cv/Berkay_Yilmaz_CV_TR.pdf` ve `assets/cv/Berkay_Yilmaz_Resume_EN.pdf` dosyalarını yenileyebilirsiniz. Herkese açık PDF'lere telefon, kişisel adres veya üçüncü kişilerin referans bilgilerini izin almadan koymayın.
+
+### Sınırlar
+
+Tam yapay zekâ sohbeti, çalışır dış model servisi ve doğrulanmamış sertifika bağlantıları otomatik olarak üretilmez. GitHub API erişimi ve Streamlit demosunun uyanması ağ koşullarına bağlıdır. Tarayıcıda yapılan ağ entegrasyonları yayın sonrası test edilmelidir.
+
+
+## V3 güncellemeleri
+- **Dil:** Sağ üstte TR/EN düğmesi; temel sayfa arayüzü, proje özetleri, asistan ve blog iki dilli. Dinamik proje vaka çalışması metinlerinin bazıları yalnızca kaynak dilinde kalabilir; GitHub README kaynaklarını doğrulamadan birebir çevrilmiş teknik iddia eklenmedi.
+- **Tema:** Güneş/ay düğmesi ile açık/koyu görünüm; tercih tarayıcıda saklanır.
+- **Blog:** `blog.html` üzerinde veri sızıntısı, CNN/transfer öğrenme ve Python analizi hakkında özgün giriş yazıları; iki dilde. Yeni içerik için bu dosyadaki `blog-article` yapısını izleyin.
+- **Portfolyo asistanı:** Gerçek üretken yapay zekâ değil; yerel bilgileri eşleştiren kural tabanlı rehber. Projeler, sertifikalar, CV, eğitim, iletişim ve blog sorularını yanıtlar. Gizli anahtar kullanılmaz.
+- **Çeviri verisi:** `data/translations.json` genel metinleri, `data/projects.json` İngilizce proje özetlerini tutar.
+- **Yayınlama:** ZIP içindeki dosyaları GitHub Pages yayın köküne yükleyin; `file://` üzerinden JSON fetch düzgün çalışmayabilir, test için `python -m http.server 8000` kullanın.
+
+
+## V3.1 yayınlama notu
+
+**Önemli:** GitHub repository kök dizinine ZIP dosyasını değil, ZIP içindeki **tüm dosya ve klasörleri** yükleyin. Özellikle `blog.html`, `script.js`, `enhancements.js`, `theme.js`, `data/` ve `assets/` klasörleri eksiksiz bulunmalı. GitHub deposunda yalnızca temel altı dosyanın kalması, tema ve dil etkileşimleri gibi özelliklerin çalışmamasına neden olur.
+
+GitHub Pages ayarlarında `main` / `(root)` yayını açık olmalıdır. Yayın sonrası `https://berkayylmz53.github.io/berkayyilmaz/blog.html` adresini ayrıca test edin. Tarayıcı önbelleği nedeniyle eski görünüm sürerse `Ctrl+F5` ile zorla yenileyin.
