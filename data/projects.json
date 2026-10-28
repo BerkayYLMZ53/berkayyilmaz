@@ -1,0 +1,261 @@
+[
+  {
+    "title": "NeuroScan — Beyin MR Tümör Sınıflandırma",
+    "description": "Custom CNN ve MobileNetV2 ile beyin MR görüntülerini dört sınıfta analiz eden, iki modeli karşılaştıran interaktif eğitim uygulaması.",
+    "technologies": [
+      "TensorFlow/Keras",
+      "MobileNetV2",
+      "Custom CNN",
+      "Streamlit"
+    ],
+    "category": "ai ml",
+    "url": "https://github.com/BerkayYLMZ53/NeuroScan-Brain-Tumor-Classification",
+    "demo": "https://berkay-neuroscan.streamlit.app/",
+    "problem": "Glioma, meningioma, pituitary ve no tumor sınıflarında beyin MR görüntülerini sınıflandırmayı araştırmak.",
+    "approach": "7.023 görüntülük veri seti üzerinde Custom CNN ve transfer öğrenme tabanlı MobileNetV2 modelleri karşılaştırıldı; yüklenen MR görselleri için tahmin sonuçları Streamlit arayüzünde gösteriliyor.",
+    "description_en": "Brain MRI image classification with Custom CNN and MobileNetV2, comparing two models in an interactive educational app.",
+    "problem_en": "Explore four-category brain MRI classification: glioma, meningioma, pituitary and no tumor.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "E-Commerce Image Moderation System",
+    "description": "YOLOv8 ve CLIP kullanan, self-feeding multi-reference mimarisiyle e-ticaret yorum görsellerini filtreleyen akıllı moderasyon sistemi. Streamlit arayüzü ile sunuldu.",
+    "technologies": [
+      "YOLOv8",
+      "CLIP",
+      "Streamlit",
+      "PyTorch"
+    ],
+    "category": "ai",
+    "url": "https://github.com/BerkayYLMZ53/E-Commerce-Image-Moderation-System",
+    "demo": null,
+    "problem": "E-ticaret platformlarında kullanıcı ürün yorum görsellerini otomatik süzmek; kargo kutusu, alakasız veya manipülatif içerikleri ayıklamak.",
+    "approach": "İki aşamalı hibrit filtre: önce YOLOv8 ile kutu/paket tespiti, ardından CLIP ile ürün-görsel semantik benzerlik (max_similarity). Onaylanan temiz görseller %65+ eşikle self-feeding referans havuzuna eklenir.",
+    "description_en": "AI-assisted moderation of e-commerce review images using YOLOv8, CLIP and a Streamlit interface.",
+    "problem_en": "Explore detecting potentially misleading images in customer reviews.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Airbnb User Booking Prediction",
+    "description": "Demografik ve oturum verileri kullanılarak yeni kullanıcıların ilk seyahat destinasyonlarını tahmin eden çok sınıflı sınıflandırma modeli. Gradient Boosting ile geliştirildi.",
+    "technologies": [
+      "Gradient Boosting",
+      "Multi-class",
+      "Scikit-learn"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Airbnb-User-Booking-Prediction-",
+    "demo": null,
+    "problem": "Yeni Airbnb kullanıcılarının ilk rezervasyon ülkesini önceden tahmin ederek kişiselleştirme ve pazarlama hedeflemesini iyileştirmek.",
+    "approach": "Eksik değer yönetimi, LabelEncoder / One-Hot Encoding, StandardScaler. Logistic Regression, Random Forest ve Gradient Boosting karşılaştırıldı; RandomizedSearchCV ve GridSearchCV ile hiperparametre araması yapıldı.",
+    "description_en": "A machine learning project predicting first booking destinations with multi-class classification.",
+    "problem_en": "Predicting user destination categories based on available booking data.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Online Shoppers Purchasing Intention",
+    "description": "Online alışveriş yapan kullanıcıların satın alma niyetini Decision Tree modelleriyle tahmin eden proje. Pre/Post-Pruning analizi ile model optimizasyonu yapıldı.",
+    "technologies": [
+      "Decision Tree",
+      "Pruning",
+      "Classification"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Online-Shoppers-Purchasing-Intention",
+    "demo": null,
+    "problem": "E-ticaret ziyaretçilerinin davranış ve mevsimsel verilerinden satın alma tamamlayıp tamamlamayacağını tahmin etmek.",
+    "approach": "DecisionTreeClassifier; kısıtsız ağaçta overfitting gözlemi. max_depth ve min_samples_split ile pre/post-pruning uygulanarak genelleme dengesi arandı.",
+    "description_en": "Predicting online shopping intent using decision trees and pruning methods.",
+    "problem_en": "Classifying purchase intent from online shopping session features.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Second Hand Car Price Prediction",
+    "description": "Linear Regression ve Scikit-Learn pipeline'ları ile ikinci el araç fiyat tahmini. R² skoru 0.8853 ile güçlü bir performans elde edildi.",
+    "technologies": [
+      "Linear Regression",
+      "Scikit-learn",
+      "Pipeline"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Second-Hand-Car-Price-Prediction",
+    "demo": null,
+    "problem": "Model yılı, kilometre, yakıt ve vites gibi özelliklerden ikinci el araç piyasa fiyatını tahmin etmek.",
+    "approach": "Kaggle Vehicle Dataset; Scikit-learn Pipeline, StandardScaler ve kategorik dönüşümlerle uçtan uca Linear Regression.",
+    "description_en": "Second-hand vehicle price estimation with regression and Scikit-learn pipelines.",
+    "problem_en": "Estimating vehicle prices from historical listings and relevant features.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "SVM Price Category Classification",
+    "description": "Support Vector Machines ve GridSearchCV pipeline'ları ile çok sınıflı fiyat kategorisi sınıflandırması. Hiperparametre optimizasyonu uygulandı.",
+    "technologies": [
+      "SVM",
+      "GridSearchCV",
+      "Multi-class"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/SVM-Price-Category-Classification",
+    "demo": null,
+    "problem": "Cihaz/ürün teknik özelliklerinden fiyat segmentini (Low, Medium, High, Very High) tahmin etmek.",
+    "approach": "Scikit-learn Pipeline + StandardScaler (SVM ölçek hassasiyeti için); GridSearchCV ile C ve kernel (RBF, linear vb.) seçimi.",
+    "description_en": "Price-category classification using support vector machines and hyperparameter tuning.",
+    "problem_en": "Comparing price classes through an SVM classification approach.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Kaggle Survey Dataset Project",
+    "description": "Kaggle Survey veri seti üzerinde baseline ve ön işlenmiş veri karşılaştırmalı veri madenciliği projesi. KNN, Decision Tree, Naive Bayes ve Random Forest modelleri test edildi.",
+    "technologies": [
+      "KNN",
+      "Random Forest",
+      "Naive Bayes",
+      "Data Mining"
+    ],
+    "category": "ml data",
+    "url": "https://github.com/BerkayYLMZ53/Kaggle-Survey-Dataset-Project",
+    "demo": null,
+    "problem": "Ham veri ile ön işlenmiş veri üzerinde aynı modellerin performans farkını göstermek.",
+    "approach": "İki aşama: ham veri baseline (KNN, Decision Tree, Naive Bayes, Random Forest); ardından eksik değer / dengesizlik düzenlemesi, LabelEncoder ve K-Fold CV ile tekrar eğitim.",
+    "description_en": "Data cleaning and comparison of classification algorithms on Kaggle survey data.",
+    "problem_en": "Comparing KNN, decision tree, Naive Bayes and random forest algorithms.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Logistic Regression — Breast Cancer Prediction",
+    "description": "Meme kanseri tümör sınıflandırması (İyi huylu / Kötü huylu). Logistic Regression ve feature scaling teknikleri kullanıldı.",
+    "technologies": [
+      "Logistic Regression",
+      "Feature Scaling",
+      "Healthcare"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Logistic-Regression-Breast-Cancer-Prediction",
+    "demo": null,
+    "problem": "Hücre çekirdeği ölçümlerinden tümörleri benign / malignant olarak sınıflandırmak.",
+    "approach": "StandardScaler ile ölçekleme; ikili sınıflandırma için Logistic Regression.",
+    "description_en": "A classification exercise using logistic regression on breast cancer data.",
+    "problem_en": "An educational machine learning classification task, not a medical diagnostic tool.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Ad Conversion Analysis with KNN",
+    "description": "Reklam dönüşümü ve satın alma davranışını K-Nearest Neighbors (KNN) sınıflandırması ile tahmin eden analiz projesi.",
+    "technologies": [
+      "KNN",
+      "Classification",
+      "Marketing Analytics"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Ad-Conversion-Analysis-with-K-Nearest-Neighbors-KNN-",
+    "demo": null,
+    "problem": "Sosyal medya reklamının demografik/ekonomik özelliklere göre satın alma (conversion) üretip üretmeyeceğini tahmin etmek.",
+    "approach": "400 gözlem; Gender, Age, EstimatedSalary → Purchased. StandardScaler + KNeighborsClassifier.",
+    "description_en": "Exploring ad conversion prediction with a K-nearest neighbors model.",
+    "problem_en": "Classification of advertising conversion outcomes.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Random Forest Regressor — Continuous Variable Estimation",
+    "description": "Random Forest Regressor ve GridSearchCV ile sürekli hedef değişken tahmini. Hiperparametre ayarı ile model performansı optimize edildi.",
+    "technologies": [
+      "Random Forest",
+      "GridSearchCV",
+      "Regression"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Random-Forest-Regressor-Continuous-Variable-Estimation",
+    "demo": null,
+    "problem": "Sürekli hedef değişkeni tek ağaç yerine ensemble (bagging) ile daha kararlı tahmin etmek.",
+    "approach": "Random Forest Regressor; GridSearchCV ile n_estimators, max_depth ve bölünme kriteri araması.",
+    "description_en": "Regression project using random forests to estimate continuous values.",
+    "problem_en": "Predicting a continuous target with ensemble learning.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Customer Segmentation",
+    "description": "Kredi kartı müşteri segmentasyonu. K-Means Clustering ve PCA boyut indirgeme teknikleri ile müşteri grupları belirlendi.",
+    "technologies": [
+      "K-Means",
+      "PCA",
+      "Clustering"
+    ],
+    "category": "ml",
+    "url": "https://github.com/BerkayYLMZ53/Customer-Segmentation",
+    "demo": null,
+    "problem": "Kredi kartı kullanıcılarının harcama davranışlarına göre segmentler oluşturarak pazarlama ve risk stratejilerine girdi sağlamak.",
+    "approach": "Credit Card Dataset; SimpleImputer, StandardScaler, PCA; K-Means + Silhouette Score ve Elbow Method.",
+    "description_en": "Exploratory customer segmentation using data analysis techniques.",
+    "problem_en": "Discovering customer groups from observed features.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "Rent-A-Car Automation Project",
+    "description": "Nesne yönelimli programlama prensipleri ve katmanlı mimari ile geliştirilmiş araç kiralama otomasyon sistemi.",
+    "technologies": [
+      "C#",
+      "OOP",
+      "WinForms",
+      "SQL"
+    ],
+    "category": "software",
+    "url": "https://github.com/BerkayYLMZ53/Rent-A-Car-Automation-Project",
+    "demo": null,
+    "problem": "Araç kiralama işletmesinin müşteri, filo ve kiralama süreçlerini dijitalleştirmek.",
+    "approach": "OOP (sınıflar, encapsulation, inheritance, polymorphism) ve katmanlı mimari; Customer, Vehicle, Rental, Invoice varlıkları.",
+    "description_en": "A software project for managing rent-a-car operations.",
+    "problem_en": "Building a rental-car management workflow.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "EduBox — Student-Friendly Application",
+    "description": "Öğrencilere yönelik kullanıcı dostu bir uygulama. TypeScript ile geliştirilmiş modern web uygulaması.",
+    "technologies": [
+      "TypeScript",
+      "Web App",
+      "Education"
+    ],
+    "category": "software",
+    "url": "https://github.com/BerkayYLMZ53/EduBox",
+    "demo": null,
+    "problem": "Öğrencilere yönelik erişilebilir ve kullanıcı dostu bir uygulama deneyimi sunmak.",
+    "approach": "TypeScript tabanlı modern web uygulaması; yerel geliştirme için Node.js ve npm script’leri.",
+    "description_en": "A student-focused software application concept and implementation.",
+    "problem_en": "Exploring student-oriented digital tools.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "E-Ticaret Veri Analizi & Teknik SEO",
+    "description": "Jupyter Notebook ve web scraping ile e-ticaret platformu verileri analiz edildi. Screaming Frog ile JS render performansı ve durum kodları denetlenerek SEO sağlık raporu oluşturuldu.",
+    "technologies": [
+      "Web Scraping",
+      "Screaming Frog",
+      "Teknik SEO"
+    ],
+    "category": "data",
+    "url": null,
+    "demo": null,
+    "problem": "E-ticaret platformu verilerini analiz etmek ve teknik SEO sağlık durumunu raporlamak.",
+    "approach": "Jupyter Notebook ile veri analizi ve web scraping; Screaming Frog ile JS render performansı ve HTTP durum kodu denetimi.",
+    "description_en": "An e-commerce data analysis and technical SEO study.",
+    "problem_en": "Analysing store data and technical SEO considerations.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  },
+  {
+    "title": "CityHub — Mobil İş Modeli",
+    "description": "Şehir içi etkinlik keşfi ve aktivite arkadaşı bulma konseptli mobil uygulama. Business Model Canvas ve Customer Journey haritaları ile projelendirildi.",
+    "technologies": [
+      "Business Model Canvas",
+      "Customer Journey",
+      "UX"
+    ],
+    "category": "other",
+    "url": null,
+    "demo": null,
+    "problem": "Şehir içi etkinlik keşfi ve aktivite arkadaşı bulma ihtiyacına iş modeli ve UX perspektifiyle çözüm üretmek.",
+    "approach": "Business Model Canvas ve Customer Journey haritaları ile konsept mobil uygulama tasarımı.",
+    "description_en": "A mobile business-model concept exploring a city-focused digital service.",
+    "problem_en": "Designing a city-focused digital business concept.",
+    "approach_en": "See the source repository or project information for implementation details and verified results."
+  }
+]
