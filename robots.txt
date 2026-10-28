@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /berkayyilmaz/
+
+Sitemap: https://berkayylmz53.github.io/berkayyilmaz/sitemap.xml
