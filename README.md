@@ -2,7 +2,7 @@
 
 Düzce Üniversitesi **Yönetim Bilişim Sistemleri (YBS) 4. sınıf** öğrencisi Berkay Yılmaz’ın veri bilimi, makine öğrenmesi ve yapay zekâ odaklı kişisel portfolyo sitesi.
 
-**Canlı site:** [berkayylmz53.github.io/berkayyilmaz](https://berkayylmz53.github.io/berkayyilmaz/)
+**Canlı site:** [berkayylmz.com.tr](https://berkayylmz.com.tr/)
 
 ---
 
