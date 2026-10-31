@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://berkayylmz53.github.io/berkayyilmaz/</loc></url>
-  <url><loc>https://berkayylmz53.github.io/berkayyilmaz/hakkimda.html</loc></url>
-  <url><loc>https://berkayylmz53.github.io/berkayyilmaz/projeler.html</loc></url>
-  <url><loc>https://berkayylmz53.github.io/berkayyilmaz/blog.html</loc></url>
+  <url>
+    <loc>https://berkayylmz.com.tr/</loc>
+  </url>
+  <url>
+    <loc>https://berkayylmz.com.tr/hakkimda.html</loc>
+  </url>
+  <url>
+    <loc>https://berkayylmz.com.tr/projeler.html</loc>
+  </url>
+  <url>
+    <loc>https://berkayylmz.com.tr/blog.html</loc>
+  </url>
 </urlset>
