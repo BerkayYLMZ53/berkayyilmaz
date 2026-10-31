@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /berkayyilmaz/
+Allow: /
 
-Sitemap: https://berkayylmz53.github.io/berkayyilmaz/sitemap.xml
+Sitemap: https://berkayylmz.com.tr/sitemap.xml
